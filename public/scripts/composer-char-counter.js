@@ -7,7 +7,7 @@ $(document).ready(() => {
 
     $(this).siblings().children(".counter").val(charLength);
 
-    if(charLength < 0) {
+    if (charLength < 0) {
       $(this).siblings().children(".counter").addClass("red");
     } else {
       $(this).siblings().children(".counter").removeClass("red");
