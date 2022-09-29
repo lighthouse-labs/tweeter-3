@@ -1,0 +1,20 @@
+.header {
+  background-image: url("/images/3px-tile.png");
+  background-color: orange;
+  height: 520px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,45 @@
+.background {
+  background-color: #4056A1;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.source-sans-pro {
+  font-family: "Source Sans Pro";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bungee {
+  font-family: "Bungee";
+  color: #FFFFFF;
+  padding-left: 1.5em;
+  font-size: 32px;
+}
+
+.write-tweet {
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  color: #FFFFFF;
+  padding-right: 1.5em;
+  height: 120px;
+  justify-content: space-around;
+}
+
+.sword {
+  display: flex;
+  justify-content: center;
+  width: 176.52px;
+  color: red;
+}
