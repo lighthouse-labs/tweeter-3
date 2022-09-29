@@ -5,11 +5,7 @@ $(document).ready(() => {
     let inputLength = $(this).val().length;
     let charLength = maxLength - inputLength;
 
-    //let $charElement = $(this).siblings().children(".counter");
-
     $(this).siblings().children(".counter").val(charLength);
-
-    //$charElement.text(charLength);
 
     if(charLength < 0) {
       $(this).siblings().children(".counter").addClass("red");
