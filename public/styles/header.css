@@ -1,7 +1,7 @@
 .header {
   background-image: url("/images/3px-tile.png");
   background-color: orange;
-  height: 520px;
+  height: 490px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
 .image {
   display: flex;
   justify-content: center;
-  padding-top: 110px;
+  padding-top: 80px;
 }
 
 .name {

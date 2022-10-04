@@ -1,6 +1,6 @@
 .background {
   background-color: #4056A1;
-  height: 120px;
+  height: 90px;
   display: flex;
   align-items: center;
   flex: 1;
@@ -34,7 +34,6 @@
   color: #FFFFFF;
   padding-right: 1.5em;
   height: 120px;
-  justify-content: space-around;
 }
 
 .sword {

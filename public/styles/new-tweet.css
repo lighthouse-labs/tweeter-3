@@ -2,10 +2,26 @@
   display:flex;
   justify-content: center;
   width: 90%;
+  flex-direction: column;
+}
+
+.compose-tweet {
+  margin-top: 20px;
+}
+
+.error-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: red;
+  color: white;
+  margin-bottom: 20px;
 }
 
 
-.form {
+#tweet-form{
   width: 100%;
   display: flex;
   flex-direction: column;
