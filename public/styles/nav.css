@@ -1,7 +1,7 @@
 .nav-bar {
   background-color: #4056A1;
   background-image: url("/images/3px-tile.png");
-  height: 90px;
+  height: 120px;
   display: flex;
   align-items: center;
   flex: 1;
