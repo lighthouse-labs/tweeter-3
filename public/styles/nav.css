@@ -1,5 +1,6 @@
-.background {
+.nav-bar {
   background-color: #4056A1;
+  background-image: url("/images/3px-tile.png");
   height: 90px;
   display: flex;
   align-items: center;
@@ -41,4 +42,11 @@
   justify-content: center;
   width: 176.52px;
   color: red;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-bar{
+    background-color: #4056A1;
+    background-image: url("/images/3px-tile.png");
+  }
 }

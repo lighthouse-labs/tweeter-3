@@ -40,7 +40,7 @@
 
   <body class="source-sans-pro">
     <!-- Top nav bar (fixed) -->
-    <nav class="background">
+    <nav class="nav-bar">
       <span class="bungee">tweeter</span>
       <div class="write-tweet">
         <span><strong>Write</strong> a new tweet</span>
@@ -49,43 +49,45 @@
         </div>
       </div>
     </nav>
+    
+    <div class="desktop">
+      <header class="header">
+        <div class="image">
+            <img src="/images/profile-hex.png"> 
+        </div>
+        <br>
+        <div class="name">
+            <span><strong>Jaskarn Singh</strong> Bhogal</span>
+        </div>
+      </header>
 
-    <header class="header">
-      <div class="image">
-          <img src="/images/profile-hex.png"> 
-      </div>
-      <br>
-      <div class="name">
-          <h2><strong>Jaskarn Singh</strong> Bhogal</h2>
-      </div>
-  </header>
 
+     <!-- Page-specific (main) content here -->
+      <main class="container">
+        <section class="new-tweet">
+          <h2 class="compose-tweet"><strong>Compose Tweet</strong></h2>
+          <span id="error-empty-text" class="error-box">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            OOPS! You must enter text before submitting a TWEET!
+            <i class="fa-solid fa-triangle-exclamation"></i>
+          </span>
+          <span id="error-long-text" class="error-box">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            OOPS! Your TWEET cannot exceed more than 140 characters!
+            <i class="fa-solid fa-triangle-exclamation"></i>
+          </span>
+          <form action="/tweets" method="POST" id="tweet-form">
+            <textarea class="tweet-text" type="text" id="tweet-text" name="text" placeholder="What are you humming about?"></textarea>
+            <div class="output">
+              <button class="button" type="submit">Tweet</button>
+              <output name="counter" class="counter" for="tweet-text">140</output>
+            </div>
+          </form>
+        </section>
 
-    <!-- Page-specific (main) content here -->
-    <main class="container">
-      <section class="new-tweet">
-        <h2 class="compose-tweet"><strong>Compose Tweet</strong></h2>
-        <span id="error-empty-text" class="error-box">
-          <i class="fa-solid fa-triangle-exclamation"></i>
-          <strong>OOPS! You must enter text before submitting a TWEET!</strong>
-          <i class="fa-solid fa-triangle-exclamation"></i>
-        </span>
-        <span id="error-long-text" class="error-box">
-          <i class="fa-solid fa-triangle-exclamation"></i>
-          <strong>OOPS! Your TWEET cannot exceed more than 140 characters!</strong>
-          <i class="fa-solid fa-triangle-exclamation"></i>
-        </span>
-        <form action="/tweets" method="POST" id="tweet-form">
-          <textarea class="tweet-text" type="text" id="tweet-text" name="text" placeholder="What are you humming about?"></textarea>
-          <div class="output">
-            <button class="button" type="submit">Tweet</button>
-            <output name="counter" class="counter" for="tweet-text">140</output>
-          </div>
-        </form>
-      </section>
-
-      <section class="tweet-container">
-      </section>
-    </main>
+        <section class="tweet-container">
+        </section>
+      </main>
+    </div>
   </body>
 </html>
