@@ -1,8 +1,16 @@
 # Tweeter Project
 
-Tweeter is a simple, single-page Twitter clone.
+A simple single-page AJAX based Twitter clone that uses jQuery, HTML5, and plain ol' CSS3 to help web development bootcamp students get comfortable with their front-end chops with those technologies.
 
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
+
+## Final Product
+
+![Screenshot of Desktop Homepage](docs/Desktop_page.png?raw=true "Homepage")
+![Screenshot of Desktop Homepage with an error message](docs/Desktop_error_empty.png?raw=true "Homepage")
+![Screenshot of Desktop Homepage with an error message](docs/Desktop_error_long.png?raw=true "Homepage")
+![Screenshot of Mobile/Tablet Homepage](docs/mobile_page.png?raw=true "Homepage")
+![Screenshot of Mobile/Tablet Homepage with an error message](docs/mobile_error_empty.png?raw=true "Homepage")
+![Screenshot of Mobile/Tablet Homepage with an error message](docs/mobile_error_long.png?raw=true "Homepage")
 
 ## Getting Started
 
