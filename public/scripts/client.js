@@ -7,13 +7,13 @@
 
 $(document).ready(() => {
 
-//Error messages will remain hidden
+  //Error messages will remain hidden
   $("#error-empty-text").hide();
   $("#error-long-text").hide();
 
 
   //Prevent Cross-Site-Scripting(XSS), the escape function will re-encode text so that unsafe characters are converted into a safe "encoded" representation
-  const escape = function (str) {
+  const escape = function(str) {
     let div = document.createElement("div");
     div.appendChild(document.createTextNode(str));
     return div.innerHTML;
@@ -94,6 +94,7 @@ $(document).ready(() => {
             renderTweets([data[data.length - 1]]);
           });
       });
+      $("#tweet-form").children("#tweet-text").val('');
     }
   });
   loadTweets();
