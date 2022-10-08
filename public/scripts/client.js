@@ -94,7 +94,7 @@ $(document).ready(() => {
             renderTweets([data[data.length - 1]]);
           });
       });
-      $("#tweet-form").children("#tweet-text").val('');
+      $("#tweet-form").trigger("reset");
     }
   });
   loadTweets();

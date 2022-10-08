@@ -2,9 +2,9 @@ $(document).ready(() => {
 
   //Event listener for updating the character counter when a user inputs text
   $(".tweet-text").on("input", function(e) {
-    let maxLength = 140;
-    let inputLength = $(this).val().length;
-    let charLength = maxLength - inputLength;
+    const maxLength = 140;
+    const inputLength = $(this).val().length;
+    const charLength = maxLength - inputLength;
 
     $(this).siblings().children(".counter").val(charLength);
 
